@@ -1,0 +1,150 @@
+#!/usr/bin/env python3
+"""Turn the trained BASIC helper into the bytes the PRIMO program loads.
+
+    python train/export_helper.py --name mi --out mi [--check]
+
+Reads build/<name>.pt, writes into the output directory:
+    model.inc     constants for the assembler
+    table.bin     one row of 2*D/8 bytes per bucket: D bits "this entry is +1" (first
+                  dimension in bit 7 of the first byte), then D bits "this entry is -1"
+    tanh.bin      256 bytes: the hidden activation for sums -128..127
+    dlevels.bin   the 8 positive levels of the output layer, as steps from one to the next
+    ocodes.bin    output layer, for each hidden unit one 4-bit code per answer
+                  (two per byte, the even answer in the low half)
+    bias.bin      16 bits per answer, less 64 per hidden unit (the products are stored +64)
+    charmap.bin   PRIMO character code -> symbol of train/helper.py (0 = ignored)
+    anstab.bin, answers.bin, title.bin, hedge.bin    the texts in PRIMO character codes
+    meta.json     sizes and the order of the answers
+
+Marks inside an answer (see train/kb.py):
+    $10 default $11     {N:default}     $12 default $11     {X:default}
+    $13 ... $14         [ ... ]         $15                 {N}
+--check compares train/ref_helper.py, which reads these files, with the trained network.
+"""
+import argparse
+import json
+import os
+import re
+import sys
+
+import numpy as np
+import torch
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from helper import Net, CODE, FOLD, reference
+from kb import KB
+from ref_helper import PRIMO, TYPED
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+TITLE = ("PRIMO MI\n\n"
+         "Kis neurális háló vagyok. Kérdezz a BASIC-ről magyarul!\n\n"
+         "Kilépés: BRK\n\n")
+# printed before an answer whose score is less than UNSURE above the next best one
+# (the threshold was chosen on the questions kept back from training, not on the test sets)
+HEDGE = "Nem biztos, hogy jól értelek.\n"
+UNSURE = 60
+
+
+def primo_bytes(s):
+    return bytes(PRIMO.get(c, ord(c)) for c in s)
+
+
+def answer_bytes(a):
+    """The answer in PRIMO codes, its slots as marks."""
+    out = bytearray()
+    for part in re.split(r"(\{N(?::\d+)?\}|\{X:[^}]*\}|\[|\])", a):
+        if part == "[":
+            out.append(0x13)
+        elif part == "]":
+            out.append(0x14)
+        elif part == "{N}":
+            out.append(0x15)
+        elif part.startswith("{N:"):
+            out += b"\x10" + primo_bytes(part[3:-1]) + b"\x11"
+        elif part.startswith("{X:"):
+            out += b"\x12" + primo_bytes(part[3:-1]) + b"\x11"
+        else:
+            b = primo_bytes(part)
+            assert all(x >= 0x16 or x in (1, 2, 3, 4, 5, 6, 0x0D) for x in b), a
+            out += b
+    return bytes(out) + b"\0"
+
+
+def charmap():
+    """128 bytes: the symbol of every character the keyboard can type."""
+    m = bytearray(128)
+    for c in " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789?!.,:;\"()=+-*/<>$":
+        m[ord(c)] = CODE[c.lower().translate(FOLD)]
+    for c in "áéíóöőúüűÁÉÖÜ":
+        m[TYPED[c]] = CODE[c.lower().translate(FOLD)]
+    return bytes(m)
+
+
+def export(name, out):
+    ck = torch.load(os.path.join(ROOT, "build", name + ".pt"), map_location="cpu")
+    a = ck["args"]
+    m = Net(a["buckets"], a["dim"], len(KB))
+    m.load_state_dict(ck["state"])
+    m.quant = True
+    arr = m.arrays()
+    B, D, C = a["buckets"], a["dim"], len(KB)
+    assert D % 8 == 0 and D <= 64 and C % 2 == 0 and C <= 256 and B & (B - 1) == 0
+    os.makedirs(out, exist_ok=True)
+
+    t = arr["table"]
+    plus = np.packbits(t == 1, axis=1)                       # first dimension in bit 7
+    minus = np.packbits(t == -1, axis=1)
+    lv = arr["levels"].astype(int)
+    assert list(lv[:8]) == [-x for x in lv[:7:-1]], "the levels must be symmetric"
+    codes = arr["codes"].astype(np.uint8)                    # [C, D]
+    packed = (codes[0::2] | (codes[1::2] << 4)).T            # [D, C/2]
+    texts = [answer_bytes(k["a"]) for k in KB]
+    offs = np.cumsum([0] + [len(x) for x in texts[:-1]])
+    files = {
+        "table": np.concatenate([plus, minus], axis=1),
+        "tanh": arr["tanh"].astype(np.int8),
+        "dlevels": np.diff(np.concatenate([[0], lv[8:]])).astype(np.uint8),
+        "ocodes": np.ascontiguousarray(packed),
+        "bias": (arr["bias"] - 64 * D).astype("<i2"),
+        "charmap": np.frombuffer(charmap(), dtype=np.uint8),
+        "anstab": offs.astype("<u2"),
+        "answers": np.frombuffer(b"".join(texts), dtype=np.uint8),
+        "title": np.frombuffer(primo_bytes(TITLE) + b"\0", dtype=np.uint8),
+        "hedge": np.frombuffer(primo_bytes(HEDGE) + b"\0", dtype=np.uint8),
+    }
+    none = [k["id"] for k in KB].index("none")
+    for k, v in files.items():
+        v.tofile(os.path.join(out, k + ".bin"))
+    with open(os.path.join(out, "model.inc"), "w") as f:
+        f.write(f"; generated by train/export_helper.py from build/{name}.pt\n"
+                f"    defc NB = {B}\n    defc ND = {D}\n    defc NC = {C}\n"
+                f"    defc UNSURE = {UNSURE}\n    defc NONE = {none}\n")
+    json.dump({"B": B, "D": D, "C": C, "unsure": UNSURE, "none": none, "ids": [k["id"] for k in KB]},
+              open(os.path.join(out, "meta.json"), "w"), indent=1)
+    size = {k: v.nbytes for k, v in files.items()}
+    print(f"{out}: table {size['table']}, output layer {size['ocodes'] + size['bias']}, "
+          f"answers {size['answers'] + size['anstab']} bytes; {sum(size.values())} in all")
+    return arr
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--name", default="mi")
+    ap.add_argument("--out", default="mi")
+    ap.add_argument("--check", action="store_true")
+    args = ap.parse_args()
+    out = os.path.join(ROOT, args.out)
+    arr = export(args.name, out)
+    if args.check:
+        import ref_helper
+        from questions import tests
+        r = ref_helper.Ref(out)
+        qs = [q for ps in tests().values() for q, _ in ps]
+        same = sum(np.array_equal(r.scores(q), reference(arr, q)) for q in qs)
+        print(f"the exported bytes give the trained network's scores on {same} of {len(qs)} questions")
+        sys.exit(0 if same == len(qs) else 1)
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,1387 @@
+{
+"print": [
+"hogyan írok ki valamit a képernyőre?",
+"mi az a print",
+"hogy jelenik meg szöveg a tévén?",
+"print mit csinál?",
+"mutasd meg, hogy kell kiirni valamit",
+"mire való a print parancs"
+],
+"calc": [
+"hogyan számolok a géppel?",
+"mennyi 12+30",
+"tud a primo szorozni?",
+"számológépnek is jó ez a masina?",
+"hogy kell osztani meg kivonni rajta",
+"számolj nekem: 7*8"
+],
+"qmark": [
+"mit csinál a kérdőjel a basicben?",
+"mi az a ? jel a sor elején",
+"lehet a printet rövidebben írni?",
+"? \"szia\" ez mit jelent",
+"a kérdőjel is parancs?",
+"lusta vagyok a printhez, van rövidebb?"
+],
+"input": [
+"hogyan kér be a program egy számot?",
+"mi az az input",
+"input mire jó?",
+"hogy tud a gép kérdezni tőlem valamit",
+"azt akarom, hogy be lehessen írni a nevet",
+"az input parancsot hogy használom"
+],
+"let": [
+"mi az a let",
+"let mit csinál?",
+"mire jó a let szó",
+"let a=5 az mit jelent",
+"muszáj kiírni a let szót?",
+"a könyvben let van a sor elején, minek?"
+],
+"assign": [
+"hogyan adok értéket a változónak?",
+"hogy teszek egy számot az a-ba",
+"hogy jegyez meg a gép egy számot?",
+"azt akarom hogy x 10 legyen, hogy írom",
+"számot eltárolni hogy lehet",
+"értékadás hogy megy?"
+],
+"if": [
+"hogyan döntsön a program valamiről?",
+"mi az az if",
+"if mit csinál",
+"hogy vizsgálok meg egy feltételt",
+"csak akkor írjon ki, ha nagy a szám. hogy?",
+"az if parancsról mesélj"
+],
+"then": [
+"mi az a then",
+"mit jelent a then?",
+"then mire jó",
+"minek kell a then az if után",
+"mi az a szó az if feltétele után?",
+"a then szót nem értem"
+],
+"else": [
+"mi az az else",
+"mi legyen, ha nem igaz a feltétel?",
+"else mit jelent",
+"hogy írom meg, hogy különben mást csináljon",
+"mire jó az else az if sorban?",
+"ha nem teljesül, akkor mi történjen?"
+],
+"for": [
+"hogyan ismételjek meg valamit ötször?",
+"mi az a for",
+"for mit csinál?",
+"hogy csinálok ciklust",
+"tízszer kell ugyanaz, ne írjam be tízszer",
+"a for parancs hogy működik"
+],
+"next": [
+"mi az a next",
+"next mit csinál?",
+"mivel zárom le a for ciklust",
+"mire való a next i",
+"mi kell a ciklus végére?",
+"a next szó minek van ott"
+],
+"to": [
+"mi az a to",
+"mit jelent a to a for sorban?",
+"for i=1 to 10 ebben mi a to",
+"to mire jó",
+"hogy adom meg, meddig menjen a ciklus?",
+"a to szó mit csinál"
+],
+"step": [
+"hogyan számol a ciklus kettesével?",
+"mi az a step",
+"step mit csinál",
+"hogy megy a ciklus visszafelé",
+"step -1 mit jelent?",
+"ötösével akarok lépni a ciklusban"
+],
+"goto": [
+"hogyan ugrok egy másik sorra?",
+"mi az a goto",
+"én tudom, mi a goto, de te tudod?",
+"menjen vissza a program a 10-es sorra",
+"goto 10 mit jelent?",
+"hogy ugrik a gép máshova a programban"
+],
+"gosub": [
+"hogyan hívok meg egy szubrutint?",
+"mi az a gosub",
+"gosub mit csinál",
+"hogy hívom meg az alprogramot",
+"gosub 100 mit jelent?",
+"szubrutin hívása hogy megy"
+],
+"return": [
+"mi az a return",
+"return mit csinál?",
+"mire jó a return parancs",
+"hogy jövök vissza a szubrutinból?",
+"mivel ér véget a szubrutin",
+"return szó a programban mit jelent"
+],
+"rem": [
+"hogyan írok megjegyzést a programba?",
+"mi az a rem",
+"rem mit csinál",
+"lehet jegyzetet írni a sorok közé?",
+"bele akarom írni, hogy ki írta a programot",
+"mire való a rem?"
+],
+"end": [
+"hogyan fejezem be a programot?",
+"mi az az end",
+"end mit csinál",
+"hogy legyen vége a programnak",
+"mit írok a program legvégére?",
+"kell az end az utolsó sorba?"
+],
+"stop": [
+"mi az a stop",
+"stop mit csinál?",
+"hogy álljon meg a program egy sornál",
+"hogy írom bele, hogy itt álljon meg?",
+"a stop parancs mire való",
+"megállítás a program belsejéből hogy megy"
+],
+"cont": [
+"hogyan folytatom a megállított programot?",
+"mi az a cont",
+"cont mit csinál",
+"megállt a program, hogy megy tovább?",
+"mire jó a cont",
+"folytatni akarom, ahol abbahagyta"
+],
+"dim": [
+"hogyan csinálok tömböt?",
+"mi az a dim",
+"dim mit csinál",
+"hogy tárolok egyszerre sok számot",
+"dim t(10) mit jelent?",
+"húsz számot kell megjegyeznie a gépnek"
+],
+"data": [
+"mi az a data",
+"data mit csinál?",
+"hogy tartok számlistát a programban",
+"előre be akarom írni a számokat a programba",
+"data 3,4 mit jelent",
+"hova írom a program adatait?"
+],
+"read": [
+"mi az a read",
+"read mit csinál?",
+"mire jó a read parancs",
+"read a,b mit jelent",
+"hogy olvasom be a data sor számait?",
+"a read honnan olvas"
+],
+"restore": [
+"mi az a restore",
+"restore mit csinál?",
+"hogy olvasom újra elölről a data sorokat",
+"még egyszer kellenek ugyanazok az adatok",
+"mire való a restore",
+"kezdje elölről az adatok olvasását, hogy?"
+],
+"cls": [
+"hogyan törlöm le a képernyőt?",
+"mi az a cls",
+"cls mit csinál",
+"tele van a képernyő, hogy tüntetem el?",
+"hogy lesz tiszta a kepernyo",
+"mire jó a cls parancs?"
+],
+"run": [
+"bocsánat, hogy kell elindítani a programot?",
+"mi az a run",
+"run mit csinál",
+"beírtam a programot, most mit nyomjak?",
+"mit kell írni, hogy fusson a program?",
+"a run szó mire való"
+],
+"list": [
+"hogyan nézem meg a programot a gépben?",
+"mi az a list",
+"list mit csinál",
+"hogy látom a sorokat, amiket beírtam",
+"írja ki a gép az egész programomat",
+"list 10-50 mit jelent?"
+],
+"new": [
+"hogyan törlöm ki az egész programot?",
+"mi az a new",
+"new mit csinál",
+"új programot kezdenék, a régi nem kell",
+"mire jó a new parancs",
+"hogy tűnik el a régi program a gépből?"
+],
+"delete": [
+"hogyan törlök ki egy sort a programból?",
+"mi az a delete",
+"delete mit csinál",
+"a 20-as sor nem kell, hogy szedem ki?",
+"delete 10-50 mit jelent",
+"több sort akarok egyszerre kidobni"
+],
+"auto": [
+"mi az az auto",
+"auto mit csinál?",
+"hogy számozza a gép magától a sorokat",
+"unom beírni a sorszámokat",
+"írhatja a sorszámot a gép helyettem?",
+"mire való az auto parancs"
+],
+"save": [
+"hogyan mentem el a programot kazettára?",
+"mi az a save",
+"save mit csinál",
+"hogy veszem fel a programot a magnóra",
+"ne vesszen el a programom kikapcsoláskor",
+"save \"jatek\" mit jelent?"
+],
+"load": [
+"hogyan töltök be programot kazettáról?",
+"mi az a load",
+"load mit csinál",
+"hogy megy be a játék a magnóról a gépbe",
+"vissza akarom tölteni, amit elmentettem",
+"a load parancs mire jó?"
+],
+"rnd": [
+"hogyan kapok véletlen számot?",
+"mi az az rnd",
+"rnd mit csinál",
+"mondjon a gép egy számot találomra",
+"rnd(6) mit jelent?",
+"hogy sorsol a gép számot"
+],
+"random": [
+"mi az a random",
+"random mit csinál?",
+"miért ugyanazok a véletlen számok mindig?",
+"minden indításnál ugyanazt sorsolja a gép",
+"mire jó a random parancs",
+"hogy keverem meg a véletlen számokat"
+],
+"int": [
+"hogyan vágom le a tizedeseket?",
+"mi az az int",
+"int mit csinál",
+"egész számot akarok a törtből",
+"int(3.7) mennyi?",
+"nem kell a tizedespont utáni rész"
+],
+"abs": [
+"mi az az abs",
+"abs mit csinál?",
+"hogy számolok abszolút értéket",
+"abs(-5) mennyi",
+"abszolút érték van a gépben?",
+"a szám értéke előjel nélkül kell"
+],
+"sqr": [
+"hogyan számolok négyzetgyököt?",
+"mi az az sqr",
+"sqr mit csinál",
+"tud gyököt vonni a gép?",
+"sqr(16) mennyi",
+"gyökvonás hogy megy"
+],
+"sin": [
+"mi az a sin",
+"sin mit csinál?",
+"hogy számolok szinuszt",
+"sin(1) mit jelent",
+"tud szinuszt a primo?",
+"szinusz függvény van a gépben?"
+],
+"cos": [
+"mi az a cos",
+"cos mit csinál?",
+"koszinuszt hogy számolok",
+"cos(0) mennyi",
+"van koszinusz a gépben?",
+"egy szög koszinusza kell nekem"
+],
+"tan": [
+"mi az a tan",
+"tan mit csinál",
+"hogy számolok tangenst?",
+"tan(1) mit jelent",
+"tangens van a basicben?",
+"tangens kiszámítása hogy megy"
+],
+"atn": [
+"mi az az atn",
+"atn mit csinál?",
+"arkusz tangenst hogy számolok",
+"atn(1) mennyi",
+"van arkusz tangens a gépen?",
+"tangensből szöget akarok visszakapni"
+],
+"pi": [
+"mennyi a pi?",
+"mi az a pi",
+"tudja a gép a pi értékét?",
+"pi mennyit ér",
+"hogy írom be a pi számot",
+"a pi az 3.14?"
+],
+"sgn": [
+"mi az az sgn",
+"sgn mit csinál?",
+"hogy tudom meg egy szám előjelét",
+"sgn(-3) mennyi",
+"negatív-e a szám, hogy nézem meg?",
+"előjel függvény mire jó"
+],
+"log": [
+"mi az a log",
+"log mit csinál?",
+"hogy számolok logaritmust",
+"log(10) mennyi",
+"tud a gép logaritmust?",
+"logaritmus kell a matekhoz, hogy írom be"
+],
+"exp": [
+"mi az az exp",
+"exp mit csinál?",
+"exp(1) mennyi",
+"mit számol az exp függvény",
+"az e szám hatványát hogy kapom meg?",
+"e az x-ediken, ezt hogy írom be"
+],
+"power": [
+"hogyan hatványozok?",
+"hogy emelek négyzetre egy számot",
+"mennyi 2 a harmadikon, hogy írom be?",
+"mi a hatványozás jele",
+"öt a négyzeten hogy megy a gépen",
+"köbre emelés hogy van?"
+],
+"len": [
+"hogyan tudom meg, milyen hosszú a szöveg?",
+"mi az a len",
+"len mit csinál",
+"megszámolja a gép, hány betű a szó?",
+"len(a$) mit jelent",
+"hány betűs a nevem, hogy számolja ki"
+],
+"left": [
+"hogyan veszem ki a szöveg első betűit?",
+"mi az a left$",
+"left$ mit csinál",
+"csak a szó eleje kell",
+"left$(a$,2) mit ad?",
+"a nevem első betűjét akarom kiírni"
+],
+"right": [
+"hogyan kapom meg a szöveg utolsó betűit?",
+"mi az a right$",
+"right$ mire jó",
+"az utolsó két betű kell a szóból",
+"right$(a$,2) mit jelent",
+"hogy szedem ki a szöveg végét"
+],
+"mid": [
+"hogy veszek ki betűket a szó közepéből?",
+"mi az a mid$",
+"mid$ mit csinál",
+"a harmadik betű kell a szóból",
+"mid$(a$,2,3) mit jelent",
+"szöveg belsejéből akarok egy darabot"
+],
+"chr": [
+"hogyan lesz a kódból betű?",
+"mi az a chr$",
+"chr$ mit csinál",
+"melyik betű a 65-ös kód?",
+"chr$(65) mit ír ki",
+"kódszámból akarok karaktert"
+],
+"asc": [
+"hogyan tudom meg egy betű kódját?",
+"mi az az asc",
+"asc mit csinál",
+"mi a kódja az a betűnek",
+"asc(\"a\") mennyi?",
+"minden betűnek van száma? hogy nézem meg"
+],
+"str": [
+"hogyan lesz a számból szöveg?",
+"mi az az str$",
+"str$ mit csinál",
+"számot akarok szöveggé alakítani",
+"str$(12) mit ad",
+"a számot szövegként kell eltennem"
+],
+"val": [
+"hogyan lesz a szövegből szám?",
+"mi az a val",
+"val mit csinál",
+"szöveget akarok számmá alakítani",
+"val(\"12\") mennyi",
+"a$-ban szám van, hogy számolok vele?"
+],
+"string": [
+"hogyan írok ki egy jelet sokszor?",
+"mi az a string$",
+"string$ mit csinál",
+"harminc mínuszjelet akarok egymás után",
+"string$(5,\"*\") mit jelent",
+"ugyanaz a betű tízszer, röviden hogy?"
+],
+"concat": [
+"hogyan rakok össze két szöveget?",
+"két szóból egyet akarok csinálni",
+"szövegeket össze lehet adni?",
+"hogy fűzöm össze az a$-t meg a b$-t",
+"hogy lesz az almából meg a fából almafa",
+"szövegek összeragasztása hogy megy"
+],
+"inkey": [
+"hogyan olvasok gombnyomást return nélkül?",
+"mi az az inkey$",
+"inkey$ mit csinál",
+"ne kelljen returnt nyomni a betű után",
+"hogy figyeli a program, mit nyomok le?",
+"gombokkal akarom irányítani a játékot"
+],
+"set": [
+"hogyan rajzolok pontot a képernyőre?",
+"mi az a set",
+"set mit csinál",
+"hogy lehet rajzolni a primón",
+"set(100,50) mit jelent?",
+"ki akarok gyújtani egy pöttyöt"
+],
+"reset": [
+"hogyan törlök ki egy pontot a rajzból?",
+"mi az a reset",
+"reset mit csinál",
+"hogy oltok ki egy pontot",
+"reset(100,50) mit jelent",
+"rossz helyen a pötty, hogy veszem le?"
+],
+"point": [
+"hogyan tudom meg, világít-e egy pont?",
+"mi az a point",
+"point mit csinál",
+"meg lehet nézni, van-e ott pötty?",
+"point(100,50) mit ad",
+"ég-e a pont a képernyőn, ezt hogy kérdezem"
+],
+"beep": [
+"hogyan adok ki hangot a géppel?",
+"mi az a beep",
+"beep mit csinál",
+"tud a primo zenélni?",
+"beep 10,100 mit jelent",
+"sípoljon már a gép, hogy kell?"
+],
+"peek": [
+"hogyan nézek bele a memóriába?",
+"mi az a peek",
+"peek mit csinál",
+"hogy olvasok ki egy bájtot a memóriából",
+"peek(16384) mit jelent",
+"meg akarom lesni, mi van a memóriában"
+],
+"poke": [
+"hogyan írok bele a memóriába?",
+"mi az a poke",
+"poke mit csinál",
+"hogy teszek egy bájtot a memóriába",
+"poke 30000,201 mit jelent",
+"át akarok írni valamit a gép memóriájában"
+],
+"inp": [
+"mi az az inp",
+"inp mit csinál?",
+"mire jó az inp",
+"inp(0) mit jelent",
+"hogy olvasok be bájtot a gép kapujáról",
+"az inp parancsot nem értem"
+],
+"out": [
+"mi az az out",
+"out mit csinál?",
+"mire való az out",
+"hogy küldök ki bájtot a gép kapujára",
+"az out parancs veszélyes?",
+"out szó a basicben mit jelent"
+],
+"tab": [
+"hogyan írok ki a sor közepére?",
+"mi az a tab",
+"tab mit csinál",
+"beljebb akarom kezdeni a kiírást",
+"tab(10) mit jelent",
+"hogy írok a tizedik oszlopba"
+],
+"using": [
+"hogyan írok ki számot két tizedessel?",
+"mi az a using",
+"print using mit csinál",
+"csak két tizedesjegy kell kiíráskor",
+"mire jó a using",
+"megadhatom, milyen alakban írja a számot?"
+],
+"on": [
+"mi az az on",
+"on mit csinál?",
+"on a goto 100,200 mit jelent",
+"szám szerint ugorjon más-más sorra, hogy?",
+"ha 1 ide, ha 2 oda ugorjon a program",
+"több sor közül hogy választ a program"
+],
+"tron": [
+"hogyan látom, melyik sornál tart a program?",
+"mi az a tron",
+"troff mit csinál",
+"tron mire jó?",
+"követni akarom a program futását",
+"írja ki a gép, melyik sort csinálja éppen"
+],
+"clear": [
+"hogyan törlöm az összes változót?",
+"mi az a clear",
+"clear mit csinál",
+"nullázni akarom a változókat",
+"clear 500 mit jelent",
+"minden változó tűnjön el, hogy kell?"
+],
+"fre": [
+"mennyi szabad memória van még?",
+"mi az az fre",
+"fre mit csinál",
+"mennyi hely maradt még a gépben?",
+"fre(0) mit jelent",
+"elfér még a programom? mennyi a szabad hely"
+],
+"onerror": [
+"hogyan kapja el a program a hibát?",
+"mi az az on error",
+"resume mit csinál",
+"on error goto mit jelent?",
+"ne álljon le a program, ha hiba van",
+"a program maga kezelje a hibát, hogy?"
+],
+"and": [
+"hogyan vizsgálok két feltételt egyszerre?",
+"mi az az and",
+"and mit jelent",
+"mindkét feltétel igaz legyen, hogy írom?",
+"mire jó az and az if-ben",
+"0-nál nagyobb és 10-nél kisebb, hogy?"
+],
+"or": [
+"mi az az or",
+"or mit jelent?",
+"elég, ha az egyik feltétel igaz, hogy írom",
+"hogy írom, hogy ez vagy az?",
+"mire való az or",
+"a legyen 1 vagy 2, hogy vizsgálom"
+],
+"not": [
+"mi az a not",
+"not mit jelent?",
+"mit csinál a not szó",
+"mire jó a not az if-ben",
+"hogy tagadok egy feltételt?",
+"not(a=5) mit jelent"
+],
+"edit": [
+"hogyan javítok ki egy sort a programban?",
+"mi az az edit",
+"edit mit csinál",
+"elrontottam a 20-as sort, most mi lesz?",
+"át akarom írni a hibás sort",
+"rossz a sorom, újra kell írni az egészet?"
+],
+"semi": [
+"hogyan írok ki két dolgot egymás mellé?",
+"mit csinál a pontosvessző a printben",
+"a printben a vessző mit jelent?",
+"ne kezdjen új sort minden kiírásnál",
+"print 1;2,3 mit jelent",
+"egy sorba akarom a nevet meg a számot"
+],
+"colon": [
+"hogyan írok több utasítást egy sorba?",
+"mit jelent a kettőspont a sorban",
+"lehet két parancs egy sorszám alatt?",
+"mire jó a : jel",
+"10 cls:print mi az a : a közepén",
+"összezsúfolnám a parancsokat egy sorba"
+],
+"wait": [
+"hogyan várjon a program egy kicsit?",
+"túl gyors a program, hogy lassítsam",
+"várjon egy másodpercet a gép!",
+"késleltetés hogy megy?",
+"szünet kell két kiírás közé",
+"lassabban fusson, mert nem látom"
+],
+"remainder": [
+"hogyan kapom meg az osztás maradékát?",
+"maradékos osztás hogy megy",
+"mennyi marad, ha 17-et osztom 5-tel?",
+"van maradék parancs a basicben?",
+"a maradékot hogy számolja ki a gép",
+"osztási maradék kell nekem"
+],
+"round": [
+"hogyan kerekítek egy számot?",
+"kerekítés hogy megy",
+"hogy lesz a 3.7-ből 4",
+"tud a gép kerekíteni?",
+"egészre akarom kerekíteni az eredményt",
+"kerekítve írja ki, ne tizedesekkel"
+],
+"forever": [
+"hogyan ismételjen a program örökké?",
+"végtelen ciklus hogy megy",
+"soha ne álljon le a program",
+"hogy megy körbe-körbe megállás nélkül",
+"azt akarom, hogy a végtelenségig fusson",
+"mindig kezdje újra magától a programot"
+],
+"compare": [
+"hogyan hasonlítok össze két számot?",
+"mit jelent a <> jel",
+"melyik a kisebb jel és melyik a nagyobb",
+"hogy írom be, hogy nem egyenlő?",
+"milyen jelekkel hasonlít a gép",
+"mi a < és a > a basicben"
+],
+"emptyline": [
+"hogyan írok ki üres sort?",
+"hogy hagyok ki egy sort a kiírásnál",
+"sorkihagyás hogy megy",
+"üres sor kell a két szöveg közé",
+"legyen egy sor hely a kiírások között",
+"hogy lesz egy sor üres a képernyőn?"
+],
+"insert": [
+"hogyan teszek új sort két sor közé?",
+"kihagytam egy sort, hogy pótolom?",
+"a 10 és a 20 közé kell még egy sor",
+"be lehet szúrni sort a program közepébe?",
+"sor beszúrása hogy megy",
+"középre akarok még egy utasítást rakni"
+],
+"runfrom": [
+"hogyan indítom a programot a 100-as sortól?",
+"nem az elejéről akarom indítani",
+"run 100 mit jelent",
+"lehet a közepétől futtatni a programot?",
+"az 50. sortól induljon, hogy?",
+"indítás egy megadott sortól"
+],
+"break": [
+"hogyan állítom meg a futó programot?",
+"nem áll le a program, mit nyomjak?",
+"mi az a brk gomb",
+"elszabadult a program, hogy fogom meg",
+"melyik gombbal szakítom meg a futást",
+"csak megy és megy, hogy lépek ki belőle"
+],
+"capital": [
+"hogyan írok nagybetűt?",
+"nagy betű hogy megy a gépen",
+"mire jó a shift gomb",
+"csupa kisbetűt ír, hogy lesz nagy?",
+"nagy a-t akarok irni",
+"melyik gombbal lesz nagybetű"
+],
+"backspace": [
+"hogyan törlök ki egy elírt betűt?",
+"elütöttem egy betűt, mit csináljak",
+"rossz gombot nyomtam, hogy törlöm vissza?",
+"melyik gomb töröl visszafelé",
+"mellényúltam, hogy radírozom ki?",
+"betű törlése írás közben"
+],
+"quotes": [
+"miért kell idézőjel a szöveg köré?",
+"macskaköröm minek a printbe",
+"kell idézőjel, ha szót írok ki?",
+"print szia nem megy, nullát ír ki",
+"hogy írok ki egy szót, idézőjellel?",
+"idézőjel nélkül miért nem írja ki a szót"
+],
+"commands": [
+"milyen parancsok vannak?",
+"milyen szavakat ismer a gép",
+"sorold fel a parancsokat!",
+"mondj pár utasítást",
+"hány parancsot tud a basic?",
+"mik a basic szavai"
+],
+"begin": [
+"hogyan kezdjek el programozni?",
+"mi legyen az első programom",
+"még sose programoztam, mit csináljak?",
+"kezdő vagyok, mivel induljak",
+"hol kezdjem a tanulást",
+"taníts meg programozni!"
+],
+"game": [
+"hogyan írok játékot?",
+"játékot akarok csinálni!",
+"mi kell egy játékprogramhoz",
+"tudok én is játékot készíteni a primón?",
+"saját játék hogy készül",
+"unalmas a számolás, játékot hogy írok?"
+],
+"color": [
+"hogyan használok színeket?",
+"van szín a primón?",
+"hogy lesz piros a betű",
+"lehet színesen rajzolni?",
+"miért fekete-fehér a kép?",
+"kéket akarok meg zöldet, hogy kell"
+],
+"variable": [
+"mi az a változó?",
+"mit jelent az, hogy változó",
+"mire jó a változó",
+"valtozo az micsoda",
+"nem értem, mi az a változó, elmondod?",
+"mit hívnak változónak a programban"
+],
+"strvar": [
+"mit jelent a $ jel?",
+"mi az a dollárjel a név végén",
+"hogy tárolok szöveget változóban",
+"n$ mit jelent",
+"mi az a szöveges változó",
+"betűket is lehet változóba tenni?"
+],
+"program": [
+"mi az a program?",
+"mit jelent az a szó, hogy program",
+"program az micsoda",
+"miből áll egy program",
+"mit nevezünk programnak",
+"magyarázd el, mi a program!"
+],
+"lineno": [
+"miért van szám a sorok elején?",
+"hogy számozzam a sorokat",
+"minek a 10 a sor elejére",
+"muszáj számozni a programsorokat?",
+"miért tízesével megy a sorszám",
+"mi az a sorszám a programban"
+],
+"loop": [
+"mi az a ciklus?",
+"mit jelent a ciklus",
+"ciklus az micsoda",
+"mire való a ciklus",
+"nem értem, mi a ciklus",
+"mit hívnak ciklusnak"
+],
+"array": [
+"mi az a tömb?",
+"mit jelent a tömb",
+"tömb az micsoda",
+"mire jó a tömb",
+"t(3) mit jelent",
+"mit neveznek tömbnek a basicben"
+],
+"subroutine": [
+"mi az a szubrutin?",
+"mit jelent a szubrutin",
+"szubrutin az micsoda",
+"mire jó a szubrutin",
+"mi az az alprogram",
+"elmagyarázod, mi a szubrutin?"
+],
+"basic": [
+"mi az a basic?",
+"mit jelent a basic",
+"basic az micsoda",
+"milyen nyelven ért a gép",
+"mi az a programnyelv",
+"mire jó a basic"
+],
+"primo": [
+"mi az a primo?",
+"hol készült a primo",
+"mikor csinálták ezt a gépet?",
+"milyen gép a primo",
+"magyar gép a primo?",
+"ki gyártotta a primót"
+],
+"memory": [
+"mennyi memóriája van a primónak?",
+"hány kilobájt van a gépben",
+"mekkora a memória",
+"hány k-s ez a primo?",
+"mennyi fér a gép memóriájába összesen",
+"nagy memóriája van a primónak?"
+],
+"direct": [
+"mi lesz, ha sorszám nélkül írok parancsot?",
+"lehet sorszám nélkül parancsot adni?",
+"szám nélkül írtam be, és rögtön megcsinálta",
+"miért hajtja végre azonnal a parancsot?",
+"mi az a közvetlen parancs",
+"sorszám nélküli parancs mit csinál"
+],
+"screen": [
+"mekkora a képernyő?",
+"hány betű fér egy sorba",
+"hány sor fér ki a képernyőre?",
+"hány pontból áll a kép",
+"milyen széles a képernyő",
+"mennyi karakter fér a tévére"
+],
+"byte": [
+"mi az a bájt?",
+"mit jelent a bájt",
+"bájt az micsoda",
+"mekkora egy bájt",
+"mi az a byte",
+"mit hívnak bájtnak"
+],
+"ram": [
+"mi az a ram?",
+"mit jelent a ram",
+"ram az micsoda",
+"mire jó a ram",
+"a ram mit csinál a gépben",
+"ram, ez mi akar lenni"
+],
+"rom": [
+"mi az a rom?",
+"mit jelent a rom",
+"rom az micsoda",
+"mire jó a rom",
+"mi van a romban",
+"a rom szót nem értem"
+],
+"cpu": [
+"milyen processzor van a primóban?",
+"mi az a processzor",
+"mi a gép esze?",
+"mi az a z80",
+"milyen proci van benne",
+"mi hajtja végre a parancsokat a gépben"
+],
+"ok": [
+"mit jelent az ok?",
+"miért írja ki a gép, hogy ok",
+"mi az az ok a képernyőn",
+"mindig azt írja: ok. ez mi?",
+"ok felirat mit jelent",
+"ok-t ír ki, most mit csináljak"
+],
+"breakin": [
+"mit jelent a break in 20?",
+"break in 30, ez mi?",
+"azt írta ki: break in 10",
+"mi az a break in",
+"break in 50 lett, ez baj?",
+"miért írja a gép, hogy break in 40"
+],
+"redo": [
+"mit jelent a ?redo",
+"?redo, ez mi?",
+"azt írja a gép: redo",
+"miért ír redo-t a gép?",
+"redo felirat jött ki",
+"beírtam a nevem és ?redo lett"
+],
+"extra": [
+"mit jelent az extra ignored?",
+"?extra ignored, ez mi",
+"azt írta ki: extra ignored",
+"miért lett extra ignored",
+"mi az az extra ignored",
+"extra ignored, ez hiba?"
+],
+"errorhelp": [
+"hibát írt ki a gép, mit csináljak?",
+"nem megy a programom",
+"valami error van, nem értem",
+"hibás a program, segíts!",
+"elromlott a programom, mi a baj",
+"errort ír a gép, most mi legyen?"
+],
+"e_nf": [
+"nf error in 40",
+"mi az az nf error?",
+"nf errort írt ki, miért"
+],
+"e_sn": [
+"sn error in 30 mit jelent?",
+"már megint sn error!",
+"mi a baj, ha sn error van"
+],
+"e_rg": [
+"rg error in 120",
+"mit jelent az rg error",
+"rg error lett, nem értem"
+],
+"e_od": [
+"od error in 10, ez mi?",
+"azt írta: od error",
+"miért kapok od errort"
+],
+"e_fc": [
+"fc error in 20",
+"mi az az fc error?",
+"fc error jött rajzolásnál"
+],
+"e_ov": [
+"ov error mit jelent",
+"ov error in 50",
+"kiírta, hogy ov error. miért?"
+],
+"e_om": [
+"om error in 200",
+"mi a baj, ha om error van?",
+"om errort ír a gép"
+],
+"e_ul": [
+"ul error in 30",
+"ul error, ez mi?",
+"azt mondja: ul error in 70"
+],
+"e_bs": [
+"bs error in 40 mit jelent",
+"mi az a bs error",
+"miért ír bs errort?"
+],
+"e_dd": [
+"dd error in 10",
+"dd error, mit rontottam el?",
+"mit jelent a dd error"
+],
+"e_div0": [
+"/0 error in 20",
+"mit jelent a /0 error?",
+"azt írta: /0 error, miért"
+],
+"e_id": [
+"id error, ez mi?",
+"id error jött ki",
+"miért van id error"
+],
+"e_tm": [
+"tm error in 30",
+"mi az a tm error?",
+"tm errort kaptam, mi a baj"
+],
+"e_os": [
+"os error in 60",
+"os error mit jelent",
+"kiírta: os error"
+],
+"e_ls": [
+"ls error in 90",
+"mi az az ls error",
+"ls error lett, miért?"
+],
+"e_st": [
+"st error in 15",
+"mit jelent az st error?",
+"st errort ír, nem értem"
+],
+"e_cn": [
+"cn error",
+"mi az a cn error?",
+"cn errort ír, nem megy tovább"
+],
+"e_nr": [
+"nr error in 100",
+"nr error, ez mit jelent",
+"miért jön nr error?"
+],
+"e_rw": [
+"rw error in 80",
+"mi az az rw error",
+"rw errort írt a gép"
+],
+"e_ue": [
+"ue error in 25",
+"mit jelent az ue error?",
+"ue error lett, ez mi"
+],
+"e_mo": [
+"mo error in 10",
+"mi az a mo error?",
+"mo error jött, mit hagytam ki"
+],
+"e_fd": [
+"fd error",
+"mit jelent az fd error?",
+"betöltéskor fd error lett"
+],
+"e_l3": [
+"l3 error in 20",
+"mi az az l3 error",
+"l3 errort ír ki, miért?"
+],
+"p_count": [
+"írj programot, ami elszámol 1-től 10-ig",
+"számoljon a gép tízig",
+"kérek egy számoló programot egytől tízig",
+"írja ki sorban a számokat 1-10",
+"program kell, ami kiírja: 1 2 3 ... 10",
+"számolós program 10-ig"
+],
+"p_countdown": [
+"írj visszaszámlálót!",
+"program, ami visszafelé számol",
+"számoljon a gép 10-től 1-ig",
+"kérek egy visszaszámláló programot",
+"rakétakilövés: 10, 9, 8 ... start",
+"tíztől lefelé számoló program kell"
+],
+"p_hello": [
+"írj programot, ami megkérdezi a nevem",
+"köszönjön nekem a gép név szerint",
+"kérdezze meg, hogy hívnak, és üdvözöljön",
+"kérek egy köszönő programot",
+"program, ami a nevemen szólít",
+"név bekérő és üdvözlő program"
+],
+"p_repeat": [
+"írd ki a nevem sokszor!",
+"program, ami hússzor kiír egy szót",
+"tele akarom írni a képernyőt a nevemmel",
+"írja ki százszor, hogy primo",
+"kérek programot, ami ismételget egy szót",
+"ugyanazt a szót sokszor kiíró program"
+],
+"p_table": [
+"szorzótábla program",
+"írd ki a szorzótáblát!",
+"kérek egy programot a hetes szorzótáblára",
+"egyszeregy kiíró program kell",
+"csinálj szorzótáblát",
+"program, ami kiírja: 1x7, 2x7, 3x7 ..."
+],
+"p_dice": [
+"dobókocka program",
+"dobjon kockát a gép!",
+"írj kockadobó programot",
+"kockázni akarok a géppel",
+"kérek egy programot, ami 1 és 6 között dob",
+"társasjátékhoz kell dobókocka, megírod?"
+],
+"p_guess": [
+"számkitaláló játék",
+"gondoljon a gép egy számra, én kitalálom",
+"írj számkitalálós programot",
+"kérem a számkitaláló programot",
+"találgatós játék kell számokkal",
+"program: a gép számot rejt, én tippelek"
+],
+"p_sum": [
+"add össze a számokat 1-től 100-ig",
+"program, ami összeadja a számokat százig",
+"mennyi 1+2+3+...+100? írj rá programot",
+"kérek összegző programot 1-100",
+"számok összege egytől százig, program",
+"írj olyat, ami 100-ig mindent összead"
+],
+"p_evenodd": [
+"páros vagy páratlan program",
+"program, ami megmondja, páros-e a szám",
+"írj páros-páratlan vizsgálót",
+"döntse el a gép, hogy páros-e",
+"kérek programot: páros ez a szám?",
+"páratlan számot felismerő program kell"
+],
+"p_max": [
+"melyik a nagyobb? program kell",
+"program: két szám közül melyik a nagyobb",
+"írj programot, ami kiírja a nagyobb számot",
+"két számból a nagyobbat válassza ki a gép",
+"kérek egy nagyobbat kereső programot",
+"beírok két számot, mondja meg a nagyobbat"
+],
+"p_squares": [
+"négyzetszámok program",
+"írd ki a négyzetszámokat!",
+"kérek programot, ami négyzetszámokat ír",
+"program: 1, 4, 9, 16 és így tovább",
+"sorolja fel a gép a négyzetszámokat",
+"négyzetszám táblázat kell tízig"
+],
+"p_line": [
+"rajzolj vonalat!",
+"vonalrajzoló program",
+"írj programot, ami húz egy vonalat",
+"hogy rajzolok egyenest?",
+"kérek egy vízszintes vonalat a képernyőre",
+"húzzon csíkot a gép a képen"
+],
+"p_circle": [
+"rajzolj kort",
+"körrajzoló program",
+"hogyan rajzolok kört?",
+"írj programot, ami kört rajzol",
+"kérek egy karikát a képernyőre",
+"kör program kell"
+],
+"p_stars": [
+"csillagos ég program",
+"rajzolj csillagokat!",
+"véletlen pontokat a képernyőre, programmal",
+"írj programot, ami összevissza pöttyöz",
+"szórja tele pontokkal a képet a gép",
+"kérek csillagrajzoló programot"
+],
+"p_sine": [
+"rajzolj hullámot!",
+"szinuszgörbe program",
+"írj programot, ami hullámvonalat rajzol",
+"szinusz hullám rajzolása hogy megy",
+"kérek egy szinusz rajzoló programot",
+"hullámzó vonalat akarok a képernyőre"
+],
+"p_square": [
+"rajzolj négyzetet!",
+"téglalap rajzoló program",
+"írj programot, ami négyzetet rajzol",
+"hogy rajzolok négyszöget?",
+"kérek egy téglalapot a képernyőre",
+"négyzetrajzoló program kell"
+],
+"p_siren": [
+"sziréna program",
+"írj zenélő programot!",
+"játsszon dallamot a gép",
+"kérek egy szirénázó programot",
+"program, ami sorban hangokat ad",
+"csináljunk zenét a géppel, programmal"
+],
+"p_average": [
+"átlagszámoló program",
+"írj programot, ami átlagot számol",
+"számold ki a jegyeim átlagát programmal",
+"kérek átlagoló programot",
+"program néhány szám átlagára",
+"hogy számol a gép átlagot? program kell"
+],
+"p_fact": [
+"faktoriális program",
+"írj programot, ami faktoriálist számol",
+"mennyi 5 faktoriális? programot kérek",
+"kérek faktoriális számolót",
+"számolja ki a gép a faktoriálist",
+"n faktoriálisa programmal"
+],
+"p_add": [
+"program, ami bekér két számot és összeadja",
+"írj összeadó programot!",
+"kérjen a gép két számot, és adja össze",
+"két szám összege, program",
+"összeadó gépet akarok csinálni",
+"beírok két számot, a program adja össze"
+],
+"p_prime": [
+"prímszám program",
+"program, ami megmondja, prím-e a szám",
+"írj prímvizsgáló programot",
+"törzsszám-e? döntse el a gép",
+"kérek prímszám felismerő programot",
+"prím vagy nem prím, program kell"
+],
+"p_reverse": [
+"írd ki a szót visszafelé!",
+"program, ami megfordítja a szót",
+"a nevemet fordítva kiíró program",
+"szófordító program kell",
+"írj programot, ami hátulról írja a szót",
+"betűket fordított sorrendben kiíró program"
+],
+"p_quiz": [
+"szorzást gyakorló program",
+"kérdezze tőlem a gép a szorzótáblát",
+"írj matek gyakorló programot",
+"program, ami feladja a szorzást és javít",
+"feleltessen a gép szorzásból!",
+"kérek matek vetélkedő programot"
+],
+"p_abc": [
+"légyszi írd ki az ábécét",
+"ábécé program",
+"program, ami kiírja a betűket a-tól z-ig",
+"kérek egy ábécé kiíró programot",
+"sorolja fel a gép az összes betűt",
+"abc program kell"
+],
+"p_triangle": [
+"csillag háromszög program",
+"rajzolj piramist csillagokból!",
+"írj programot: háromszög * jelekből",
+"kérek csillagpiramist",
+"lépcső csillagokból, program",
+"háromszöget kiíró program csillagokkal"
+],
+"p_fib": [
+"fibonacci program",
+"írd ki a fibonacci számokat!",
+"program a fibonacci sorozatra",
+"kérek fibonacci sorozatot",
+"hogy számolja ki a gép a fibonaccit?",
+"írj fibonacci számolót"
+],
+"p_key": [
+"program, ami megmondja, mit nyomtam le",
+"írd ki, melyik gombot ütöttem le!",
+"gombfigyelő program",
+"kérek programot a lenyomott gomb kiírására",
+"melyik billentyű volt? program kell",
+"billentyű kiíró programot írj"
+],
+"p_clock": [
+"stopper program",
+"írj programot, ami másodperceket számol",
+"másodpercszámláló kell",
+"kérek egy stopperórát",
+"óra program, ami másodpercenként lép",
+"mérje a gép az időt, programmal"
+],
+"t_hello": [
+"szia",
+"helló!",
+"jó napot kívánok",
+"szevasz primo",
+"csókolom",
+"hali, itt vagyok"
+],
+"t_who": [
+"ki vagy te?",
+"hogy hívnak",
+"mi a neved?",
+"te mi vagy",
+"kivel beszélek?",
+"ember vagy vagy gép"
+],
+"t_thanks": [
+"köszönöm",
+"köszi!",
+"kösz a segítséget",
+"nagyon szépen köszönöm",
+"köszike",
+"köszönet a válaszért"
+],
+"t_bye": [
+"viszlát",
+"szia, megyek haza",
+"viszontlátásra!",
+"na csá",
+"pá pá",
+"mennem kell, holnap jövök"
+],
+"t_help": [
+"mit tudsz?",
+"segíts!",
+"mit kérdezhetek tőled",
+"mire vagy jó?",
+"segítség kéne",
+"miben tudsz segíteni nekem"
+],
+"t_how": [
+"hogy vagy?",
+"mi újság",
+"hogy érzed magad?",
+"jól vagy",
+"mizujs?",
+"hogy s mint, gép"
+],
+"t_praise": [
+"okos vagy",
+"ügyes vagy!",
+"szeretlek",
+"te vagy a legjobb",
+"de jó fej vagy",
+"klassz vagy, tetszel nekem"
+],
+"t_insult": [
+"hülye vagy",
+"buta gép!",
+"te semmit se tudsz",
+"béna vagy",
+"ostoba masina",
+"de nagy szamár vagy"
+],
+"none": [
+"hány lába van a póknak?",
+"ki nyerte a meccset?",
+"holnap lesz dolgozat?",
+"mit ebédeljek ma?",
+"mesélj egy mesét!",
+"hány éves a nagymamám?",
+"esik holnap az eső?",
+"mi magyarország fővárosa?",
+"unatkozom",
+"asdfgh",
+"miért ugat a kutya",
+"ki a legjobb focista a világon",
+"miért kell iskolába járni",
+"szereted a spenótot",
+"ki az a vuk?",
+"anyukám mit főz vacsorára",
+"havazik kint",
+"ki volt mátyás király",
+"szomorú vagyok ma",
+"blablabla",
+"mit eszik a sündisznó",
+"a fradi vagy a honvéd a jobb?",
+"a tanár néni nagyon szigorú",
+"kérek egy palacsintát!",
+"hol lakik süsü, a sárkány",
+"a tesóm elvette a labdámat",
+"miért kék az ég?",
+"milyen messze van a hold?",
+"félek a sötétben",
+"lalala trallala",
+"melyik a leggyorsabb állat?",
+"nyer vasárnap a válogatott?",
+"ötöst kapok nyelvtanból?",
+"túró rudi vagy csoki?",
+"mi lett a kiskakas gyémánt félkrajcárjával",
+"apukám mikor jön értem?",
+"meleg lesz a balatonnál?",
+"ki írta a toldit",
+"fáj a hasam",
+"qwertz uiop",
+"szereted a macskákat?",
+"hány gólt rúgott détári",
+"hol van a tornazsákom",
+"hogy kell gombócot főzni",
+"van testvéred?",
+"mikor született petőfi sándor?",
+"álmos vagyok, haza akarok menni",
+"hahaha",
+"mekkora egy elefánt",
+"mikor kezdődik a nyári vakáció?",
+"éhes vagyok",
+"melyik a leghosszabb folyó",
+"szerelmes vagyok a zsuzsiba",
+"a hörcsögöm megszökött",
+"ki találta fel a villanykörtét?",
+"hány óra van?",
+"mikor lesz karácsony",
+"hol lakik a mikulás?",
+"tudsz biciklizni?",
+"hogy rakom ki a rubik kockát"
+]
+}
